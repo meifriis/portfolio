@@ -23,7 +23,7 @@
 }
 
 
-/****** OM MIG*********/
+/****** CV*********/
 
 #cv {
     display: flex;
@@ -271,4 +271,30 @@ li a:hover {
     .logo img {
         width: 50%;
     }
+}
+
+
+
+/********************FOOTER**********/
+
+footer {
+    background-color: #173a4d;
+    text-align: center;
+}
+
+
+.footer1 {
+    color: whitesmoke;
+    padding: 10px;
+}
+
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social img {
+    width: 40%;
+
 }
