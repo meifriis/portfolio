@@ -5,6 +5,60 @@
 }
 
 
+.title h1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #173a4d;
+    font-family: 'Lucida Fax', sans-serif;
+    padding: 15px;
+
+}
+
+.logo img {
+    width: 15%;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+}
+
+
+/****** OM MIG*********/
+
+#cv {
+    display: flex;
+    flex-wrap: wrap;
+    color: #173a4d;
+}
+
+.ommig {
+    flex-grow: 1;
+    flex-basis: 300px;
+    color: #173a4d;
+    padding: 15px;
+
+}
+
+.mig {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.mig img {
+    width: 50%;
+    border-top-right-radius: 20em;
+    border-bottom-right-radius: 20em;
+    border-top-left-radius: 20em;
+    border-bottom-left-radius: 20em;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/*-------- DROPDOWN ---------- */
+
 /******MENU************/
 
 nav {
@@ -187,7 +241,7 @@ li a:hover {
 
 /*-------- Media Queries ---------- */
 
-@media all and (max-width: 828px) {
+@media all and (max-width: 824px) {
     nav ul {
         display: none;
     }
@@ -199,30 +253,22 @@ li a:hover {
     }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 828px) {
     .dropdown {
         display: none;
     }
 }
 
+/*******logo********/
 
-
-/*-------- Media Queries ---------- */
-
-@media all and (max-width: 1200px) {
-    nav ul {
-        display: none;
-    }
-    nav select {
-        display: inline-block;
-    }
-    body {
-        margin-top: 80px;
+@media all and (max-width: 928px) {
+    .logo img {
+        width: 50%;
     }
 }
 
-@media all and (min-width: 1200px) {
-    .dropdown {
-        display: none;
+@media all and (max-width: 400px) {
+    .logo img {
+        width: 50%;
     }
 }
