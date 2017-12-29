@@ -1,6 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #173a4d;
+
+
+
 }
 
 .title h1 {
@@ -20,45 +26,6 @@ body {
     padding: 15px;
 }
 
-
-/****** CV*********/
-
-#cv {
-    display: flex;
-    flex-wrap: wrap;
-    color: #173a4d;
-}
-
-.ommig {
-    flex-grow: 1;
-    flex-basis: 300px;
-    color: #173a4d;
-    padding: 15px;
-
-}
-
-
-.ommig p,
-h2 {
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-.mig {
-    flex-grow: 1;
-    flex-basis: 300px;
-}
-
-.mig img {
-    width: 50%;
-    border-top-right-radius: 20em;
-    border-bottom-right-radius: 20em;
-    border-top-left-radius: 20em;
-    border-bottom-left-radius: 20em;
-    padding: 15px;
-    display: block;
-    margin: 0 auto;
-}
 
 /*-------- DROPDOWN ---------- */
 
@@ -278,6 +245,76 @@ li a:hover {
 
 
 
+/************************* CV********************'****/
+
+#cv {
+    display: flex;
+    flex-wrap: wrap;
+    color: #173a4d;
+}
+
+.ommig {
+    flex-grow: 1;
+    flex-basis: 300px;
+    color: #173a4d;
+    padding: 15px;
+
+}
+
+
+.ommig p,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.mig {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.mig img {
+    width: 50%;
+    border-top-right-radius: 20em;
+    border-bottom-right-radius: 20em;
+    border-top-left-radius: 20em;
+    border-bottom-left-radius: 20em;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+/********************Portfolio***************/
+
+#portfolio h1 {
+    text-align: center;
+}
+
+
+.port {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.port img {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    height: 30%;
+}
+
+
+
+
+
+
+
+
+
 /********************FOOTER**********/
 
 footer {
@@ -303,7 +340,23 @@ footer {
     flex-wrap: wrap;
 }
 
-.social img {
-    width: 40%;
+.facebook img {
+    width: 7%;
+}
 
+.instagram img {
+    width: 10%;
+}
+
+
+.instagram {
+    flex-grow: 1;
+    flex-basis: 20px;
+    padding: 30px;
+}
+
+.facebook {
+    flex-grow: 1;
+    flex-basis: 20px;
+    padding: 30px;
 }
