@@ -30,49 +30,75 @@ body {
 
 /******MENU************/
 
-nav {
-    margin: 0 auto;
-    text-align: center;
-    background-color: #173a4d;
-    width: 100%;
-}
-
-nav ul {
-    display: inline-block;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar {
     overflow: hidden;
+    background-color: #173a4d;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-    line-height: 0.5;
+    display: flex;
+    justify-content: center;
+
 }
 
-
-li {
+.navbar a {
     float: left;
-}
-
-
-li a {
-    display: block;
+    font-size: 16px;
     color: white;
     text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    width: 30vw;
+
+}
+
+#portfolio1 {
+    float: left;
+    overflow: hidden;
+}
+
+#portfolio1 .portbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 15px;
+    background-color: inherit;
+}
+
+
+
+.navbar a:hover,
+.portfolio1:hover .portbtn {
+    background-color: #5d6f7d;
+}
+
+
+
+.port_content {
+    display: none;
+    position: absolute;
+    background-color: #173a4d;
+    z-index: 1;
+    margin-top: 74px;
+    margin-left: 100px;
+}
+
+.port_content a {
+    float: none;
+    color: whitesmoke;
     padding: 14px 16px;
     text-decoration: none;
-    width: 200px;
-    height: 1px;
+    display: block;
+    text-align: left;
+    width: 20.6vw;
 }
 
-li a:hover {
-    background-color: #336986;
-    color: #ffffff;
+.port_content a:hover {
+    background-color: #5d6f7d;
 }
 
+#portfolio1:hover .port_content {
+    display: block;
+}
 
 /*-------- DROPDOWN ---------- */
 
@@ -215,6 +241,13 @@ li a:hover {
 /*-------- Media Queries ---------- */
 
 @media all and (max-width: 824px) {
+    .navbar {
+        display: none;
+    }
+
+}
+
+v @media all and (max-width: 824px) {
     nav ul {
         display: none;
     }
@@ -532,4 +565,27 @@ footer {
 
 .final img:hover {
     transform: scale(1.1);
+}
+
+
+/**********VIDEO************/
+
+#pilotprojekt h2 {
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+}
+
+.video p {
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+
+}
+
+.veneklinikken {
+    text-align: center;
 }
