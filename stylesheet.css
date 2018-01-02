@@ -250,7 +250,7 @@ li a:hover {
 
 /************************* CV********************'****/
 
-#cv {
+.cv {
     display: flex;
     flex-wrap: wrap;
     color: #173a4d;
@@ -291,6 +291,11 @@ h2 {
 }
 
 
+.tidslinje img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
 
 /********************Portfolio***************/
 
