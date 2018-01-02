@@ -598,3 +598,40 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+/********** REDESIGN*********/
+
+#redesign h1 {
+    text-align: center;
+}
+
+.redesign {
+    width: 100%;
+}
+
+.linkre p {
+    color: #173a4d
+}
+
+.com h2 {
+    text-align: center;
+}
+
+
+
+
+.com img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.2s ease;
+    padding: 15px;
+
+}
+
+
+
+
+.com img: hover {
+    transform: scale(1.1);
+}
