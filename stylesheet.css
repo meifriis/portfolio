@@ -382,7 +382,7 @@ footer {
     text-align: center;
 }
 
-.flex {
+.del1 {
     display: flex;
     flex-wrap: wrap;
 }
@@ -414,5 +414,117 @@ footer {
 }
 
 .powerpoint img:hover {
+    transform: scale(1.1);
+}
+
+
+.moodboards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mood img {
+    width: 40vw;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.mood {
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 15px;
+
+
+}
+
+.mood2 img {
+    width: 40vw;
+    margin: 0 auto;
+    display: block;
+}
+
+.mood2 {
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 15px;
+}
+
+.del2 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.span {
+    text-align: center;
+}
+
+.del3 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.del3 img {
+    width: 10%;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+}
+
+.doku img {
+    width: 10%;
+}
+
+
+.doku {
+    transition: all 0.2s ease;
+
+}
+
+.doku img:hover {
+    transform: scale(1.1);
+}
+
+
+.proces {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.styletile {
+    flex-grow: 1;
+    flex-basis: 500px;
+    padding: 5px;
+}
+
+.ikon {
+    flex-grow: 1;
+    flex-basis: 500px;
+    padding: 10px;
+
+}
+
+.styletile img {
+    width: 100%;
+
+}
+
+.ikon img {
+    width: 60%;
+}
+
+
+.final {
+    transition: all 0.2s ease;
+
+}
+
+.final img {
+    width: 30%;
+}
+
+
+.final img:hover {
     transform: scale(1.1);
 }
