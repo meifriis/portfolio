@@ -680,3 +680,104 @@ a {
     }
 
 }
+
+/***********ANIMATON******************/
+
+#animation h1 {
+    font-size: 2.2em;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+.animationtekst {
+    width: 100%;
+}
+
+
+.spritesheet img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.liste {
+    width: 100%;
+}
+
+.liste {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+
+.animationtekst p {
+    width: 90%;
+    margin: auto;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+.finalanimation h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.finalanimation img {
+    margin: 0 auto;
+    display: block;
+    transition: all 0.2s ease;
+    padding: 15px;
+    width: 25%;
+
+}
+
+
+.finalanimation img:hover {
+    transform: scale(1.1);
+}
+
+
+/******SEX OG SAMFUND******/
+
+.privatsnak img {
+    margin: 0 auto;
+    display: block;
+    width: 20%;
+    padding: 15px;
+}
+
+
+.stekst {
+    width: 100%;
+}
+
+.stekst p {
+    width: 90%;
+    margin: auto;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+.ssfinal img {
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.2s ease;
+
+
+}
+
+.ssfinal h2 {
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.ssfinal img:hover {
+    transform: scale(1.1);
+
+
+
+}
