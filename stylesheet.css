@@ -11,6 +11,37 @@ body {
     color: #173a4d;
 }
 
+/************ FONT*************/
+
+p {
+    text-align: justify;
+    font-family: 'Rokkitt', serif;
+    word-spacing: 4px;
+    font-size: 1.2em;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+
+
+h1 {
+    font-family: 'Rokkitt', serif;
+    font-size: 2.2em;
+    word-spacing: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+
+h2 {
+    font-family: 'Rokkitt', serif;
+    font-size: 2em;
+    word-spacing: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+
 
 .title h1 {
     height: auto;
@@ -22,6 +53,30 @@ body {
     padding: 15px;
 
 }
+
+
+
+b {
+    font-family: 'Rokkitt', serif;
+    font-size: 0.9em;
+    word-spacing: 4px;
+}
+
+
+
+a {
+    text-align: inherit;
+    color: #173a4d;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.2em;
+    word-spacing: 4px;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+
+
+/******LOGO***********/
 
 .logo {
     margin-top: 70px;
@@ -295,6 +350,7 @@ v @media all and (max-width: 824px) {
 }
 
 
+
 /********************FOOTER**********/
 
 footer,
@@ -305,7 +361,6 @@ footer p {
     font-family: 'Rokkitt', serif;
     font-size: 1.2em;
     padding: 10px;
-
 }
 
 
@@ -351,6 +406,9 @@ footer {
     padding: 15px;
 }
 
+
+
+
 /************************* CV********************'****/
 
 .cv {
@@ -368,24 +426,14 @@ footer {
 }
 
 
-.ommig p,
-h2 {
-    font-family: 'Rokkitt', serif;
-    font-size: 1.2em;
-    word-spacing: 4px;
-    background-color: white;
-    color: #173a4d;
-    text-align: left;
-
-}
-
 .mig {
     flex-grow: 1;
     flex-basis: 300px;
+    padding-top: 100px;
 }
 
 .mig img {
-    width: 50%;
+    width: 60%;
     border-top-right-radius: 20em;
     border-bottom-right-radius: 20em;
     border-top-left-radius: 20em;
@@ -402,6 +450,8 @@ h2 {
     display: block;
     padding: 15px;
 }
+
+
 
 /********************Portfolio***************/
 
@@ -435,12 +485,9 @@ h2 {
     transform: scale(1.1);
 }
 
-/********WEBDESIGN********/
 
-#splash h1 {
-    text-align: center;
-    font-size: 2.2em;
-}
+
+/********WEBDESIGN********/
 
 .moodboards {
     display: flex;
@@ -451,7 +498,6 @@ h2 {
     width: 40vw;
     margin: 0 auto;
     display: block;
-
 }
 
 .mood {
@@ -472,50 +518,23 @@ h2 {
     padding: 15px;
 }
 
-b {
-    font-family: 'Rokkitt', serif;
-    font-size: 0.9em;
-    word-spacing: 4px;
-}
-
 
 .del1 {
     width: 100%;
 }
 
 
-.del1 p {
-    margin: auto;
-    padding: 15px;
-    font-size: 1.2em;
-    width: 90%;
-
-}
 
 .del2 {
     width: 100%;
 }
 
 
-.del2 p {
-    margin: auto;
-    padding: 15px;
-    font-size: 1.2em;
-    width: 90%;
-
-}
-
 .styletile img {
     width: 60%;
     margin: 0 auto;
     display: block;
     padding: 15px;
-}
-
-
-.final h2 {
-    text-align: center;
-    font-size: 2em;
 }
 
 .final {
@@ -536,29 +555,10 @@ b {
 }
 
 
-
 /**********VIDEO************/
-
-#pilotprojekt h2 {
-    text-align: center;
-    font-family: 'Rokkitt', serif;
-    font-size: 2.2em;
-    word-spacing: 4px;
-}
 
 .video {
     width: 100%;
-}
-
-.video p {
-    text-align: justify;
-    font-family: 'Rokkitt', serif;
-    word-spacing: 4px;
-    font-size: 1.2em;
-    width: 90%;
-    margin: auto;
-    padding: 15px;
-
 }
 
 .veneklinikken {
@@ -577,6 +577,8 @@ b {
 
 }
 
+
+
 /********** REDESIGN*********/
 
 .flex_redesign {
@@ -584,43 +586,13 @@ b {
     flex-wrap: ;
 }
 
-#redesign h1 {
-    text-align: center;
-    font-size: 2.2em;
-}
-
-
 .redesign {
     width: 100%;
-}
-
-.redesign p,
-a {
-    text-align: inherit;
-    color: #173a4d;
-    font-family: 'Rokkitt', serif;
-    font-size: 1.2em;
-    word-spacing: 4px;
-    width: 90%;
-    margin: auto;
-    padding: 15px;
-
-
 }
 
 .re_styletile {
     text-align: center;
 }
-
-
-.com h2 {
-    text-align: center;
-    font-family: 'Rokkitt', serif;
-    font-size: 2em;
-    word-spacing: 4px;
-
-}
-
 
 .com img {
     width: 25%;
@@ -628,7 +600,6 @@ a {
     margin: 0 auto;
     transition: all 0.2s ease;
     padding: 15px;
-
 }
 
 .com img:hover {
@@ -649,16 +620,6 @@ a {
     width: 100%;
 }
 
-.cphtekst p {
-    font-family: 'Rokkitt', serif;
-    font-size: 1.2em;
-    word-spacing: 4px;
-    width: 90%;
-    margin: auto;
-    padding: 15px;
-
-
-}
 
 .cphdox {
     text-align: center;
@@ -681,12 +642,9 @@ a {
 
 }
 
-/***********ANIMATON******************/
 
-#animation h1 {
-    font-size: 2.2em;
-    text-align: center;
-}
+
+/***********ANIMATON******************/
 
 a {
     text-align: center;
@@ -713,17 +671,6 @@ a {
     padding: 15px;
 }
 
-.animationtekst p {
-    width: 90%;
-    margin: auto;
-    font-size: 1.2em;
-    padding: 15px;
-}
-
-.finalanimation h2 {
-    text-align: center;
-    font-size: 2em;
-}
 
 .finalanimation img {
     margin: 0 auto;
@@ -740,6 +687,8 @@ a {
 }
 
 
+
+
 /******SEX OG SAMFUND******/
 
 .privatsnak img {
@@ -754,12 +703,7 @@ a {
     width: 100%;
 }
 
-.stekst p {
-    width: 90%;
-    margin: auto;
-    font-size: 1.2em;
-    padding: 15px;
-}
+
 
 .ssfinal img {
     width: 20%;
@@ -770,10 +714,7 @@ a {
 
 }
 
-.ssfinal h2 {
-    text-align: center;
-    font-size: 1.9em;
-}
+
 
 .ssfinal img:hover {
     transform: scale(1.1);
