@@ -26,8 +26,7 @@ p {
 
 h1 {
     font-family: 'Rokkitt', serif;
-    font-size: 2.2em;
-    word-spacing: 4px;
+    font-size: 1.8em;
     text-align: center;
     width: 100%;
 }
@@ -36,7 +35,13 @@ h1 {
 h2 {
     font-family: 'Rokkitt', serif;
     font-size: 2em;
-    word-spacing: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Rokkitt', serif;
+    font-size: 1.7em;
     text-align: center;
     width: 100%;
 }
@@ -710,15 +715,36 @@ a {
     margin: 0 auto;
     display: block;
     transition: all 0.2s ease;
-
-
 }
-
-
 
 .ssfinal img:hover {
     transform: scale(1.1);
+}
 
 
+/******KEAFRIDAY******/
 
+.keaapp img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.finalkea img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+    transition: all 0.2s ease;
+}
+
+.finalkea img:hover {
+    transform: scale(1.1);
+}
+
+.finalkea {
+    width: 10%;
+    margin: 0 auto;
+    display: block;
 }
