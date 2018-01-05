@@ -82,7 +82,10 @@ a {
 
 
 .splash img {
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
 }
 
 /******LOGO***********/
@@ -342,6 +345,12 @@ footer {
 
 /************************* CV********************'****/
 
+#cv {
+    display: none;
+    width: 100%;
+}
+
+
 .cv {
     display: flex;
     flex-wrap: wrap;
@@ -385,6 +394,11 @@ footer {
 
 
 /********************Portfolio***************/
+
+#portfoliomappe {
+    display: none;
+    width: 100%;
+}
 
 .portbg {
     background-color: #ffffff;
