@@ -82,10 +82,9 @@ a {
 
 
 .splash img {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display: block;
-    padding: 15px;
 }
 
 /******LOGO***********/
