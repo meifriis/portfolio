@@ -177,20 +177,16 @@ a {
 
 /*-------- DROPDOWN ---------- */
 
+/*--------- DROPDOWN MENU ----------*/
 
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-
-.dropdown:hover .dropbtn {
+.dropdown-content {
+    display: none;
+    position: absolute;
     background-color: #173a4d;
+    min-width: 100px;
+    z-index: 1;
 }
 
-
-
-
-/*--------- NAVIGATION MENU -------*/
-
-/*--------- DROPDOWN MENU ----------*/
 
 .dropbtn {
     background-color: #173a4d;
@@ -204,33 +200,15 @@ a {
     font-family: 'Rokkitt', serif;
 }
 
-/*------ DROPDOWN CONTAINER -------*/
-
-.dropdown {
-    position: fixed;
-    display: inline-block;
-    width: 100%;
-    top: 0;
-    background-color: #173a4d;
-    z-index: 1;
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
-.dropdown ul {
+.dropdown:hover .dropbtn {
     background-color: #173a4d;
-    list-style-type: none;
-    text-align: left;
 }
 
 
-/*-------- DROPDOWN INDHOLD -------*/
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #173a4d;
-    min-width: 100px;
-    z-index: 1;
-}
 .dropdown-content a {
     color: #ffffff;
     padding: 10px;
@@ -238,13 +216,25 @@ a {
     display: block;
 }
 
+
 .dropdown-content a:hover {
     background-color: #ffffff;
     color: #5d6f7d;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    background-color: #173a4d;
+}
+
+.dropdown ul {
+    background-color: #173a4d;
+    list-style-type: none;
+    text-align: left;
 }
 
 /*-------- Media Queries ---------- */
