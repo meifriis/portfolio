@@ -748,3 +748,41 @@ a {
     margin: 0 auto;
     display: block;
 }
+
+
+
+/*************REPUBLIKKEN*******/
+
+.republikken img {
+    width: 10%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+
+.flexrep {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexrep img {
+    flex-basis: 300px;
+    flex-grow: 1;
+    width: 10%;
+    height: 100%;
+
+}
+
+.finallapp img {
+    margin: 0 auto;
+    display: block;
+    width: 10%;
+    transition: all 0.2s ease;
+
+
+}
+
+.finallapp img:hover {
+    transform: scale(1.1);
+}
