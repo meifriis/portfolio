@@ -1,11 +1,11 @@
 $(document).ready(function () {
 
     $(".nav_cv").click(function () {
-        $("#portfoliomappe").hide();
-        $("#cv").show();
+        $("#portfoliomappe").slideUp("slow");
+        $("#cv").slideDown("slow");
 
         $("html, body").animate({
-            scrollTop: 600
+            scrollTop: 580
         }, 900);
 
 
@@ -14,12 +14,12 @@ $(document).ready(function () {
 
 
     $(".nav_port").click(function () {
-        $("#cv").hide();
-        $("#portfoliomappe").show();
+        $("#cv").slideUp("slow");
+        $("#portfoliomappe").slideDown("slow");
 
 
         $("html, body").animate({
-            scrollTop: 560
+            scrollTop: 580
         }, 900);
 
     });
@@ -29,6 +29,14 @@ $(document).ready(function () {
     $(".nav_forside").click(function () {
         $("#cv").slideUp("slow");
         $("#portfoliomappe").slideUp("slow");
+
+        $("html, body").animate({
+            scrollTop: 10
+        }, 900);
+
+
+
+
     });
 
 
