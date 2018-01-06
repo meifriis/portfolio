@@ -128,6 +128,7 @@ a {
     height: 45px;
     flex-grow: 1;
     flex-basis: 200px;
+
 }
 
 .navbar a {
@@ -138,6 +139,7 @@ a {
     width: 128px;
     margin-top: -5px;
     text-align: center;
+
 }
 
 #portfolio1 {
@@ -174,6 +176,7 @@ a {
     z-index: 1;
     margin-top: 40px;
     margin-left: 0px;
+
 
 }
 
@@ -296,11 +299,6 @@ footer p {
 }
 
 
-
-
-
-
-
 /************************* CV********************'****/
 
 #cv {
@@ -410,19 +408,15 @@ footer p {
     flex-wrap: wrap;
 }
 
-.mood img {
-    width: 40vw;
-    margin: 0 auto;
-    display: block;
-}
-
 .mood {
     flex-grow: 1;
     flex-basis: 400px;
     padding: 15px;
 }
 
-.mood2 img {
+
+
+.mood img {
     width: 40vw;
     margin: 0 auto;
     display: block;
@@ -434,6 +428,12 @@ footer p {
     padding: 15px;
 }
 
+
+.mood2 img {
+    width: 40vw;
+    margin: 0 auto;
+    display: block;
+}
 
 .del1 {
     width: 100%;
@@ -469,6 +469,22 @@ footer p {
 .final img:hover {
     transform: scale(1.1);
 }
+
+
+
+@media all and (max-width: 887px) {
+    .mood img,
+    .mood2 img,
+    .styletile img {
+        width: 100%;
+    }
+    .final img,
+        {
+        width: 50%;
+    }
+
+}
+
 
 
 /**********VIDEO************/
@@ -558,6 +574,15 @@ footer p {
 
 }
 
+@media all and (max-width: 887px) {
+    .cphlogo img {
+        margin-bottom: 40px;
+
+        margin-top: 40px;
+        width: 100%;
+    }
+
+}
 
 
 /***********ANIMATON******************/
@@ -605,6 +630,15 @@ a {
 
 
 
+@media all and (max-width: 887px) {
+    .finalanimation img {
+        width: 50%;
+    }
+
+}
+
+
+
 /******SEX OG SAMFUND******/
 
 .privatsnak img {
@@ -633,6 +667,18 @@ a {
 }
 
 
+
+
+@media all and (max-width: 887px) {
+    .ssfinal img {
+        width: 50%;
+    }
+    .privatsnak img {
+        width: 50%;
+        margin-top: 40px;
+    }
+}
+
 /******KEAFRIDAY******/
 
 .keaapp img {
@@ -655,12 +701,23 @@ a {
 }
 
 .finalkea {
-    width: 10%;
+    width: 10vw;
     margin: 0 auto;
     display: block;
 }
 
 
+
+@media all and (max-width: 887px) {
+    .finalkea img {
+        width: 30vw;
+
+    }
+    .finalkea {
+        width: 100%;
+    }
+
+}
 
 /*************REPUBLIKKEN*******/
 
@@ -698,6 +755,14 @@ a {
     transform: scale(1.1);
 }
 
+
+@media all and (max-width: 887px) {
+    .finallapp img {
+        width: 30vw;
+
+    }
+
+}
 
 
 /*************EKSTRA********/
