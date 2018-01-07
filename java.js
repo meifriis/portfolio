@@ -1,16 +1,14 @@
 $(document).ready(function () {
-
     $(".nav_cv").click(function () {
         $("#portfoliomappe").slideUp("slow");
         $("#cv").slideDown("slow");
 
         $("html, body").animate({
-            scrollTop: 580
+            scrollTop: 700
         }, 900);
 
 
     });
-
 
 
     $(".nav_port").click(function () {
@@ -19,24 +17,28 @@ $(document).ready(function () {
 
 
         $("html, body").animate({
-            scrollTop: 580
+            scrollTop: 690
+        }, 900);
+
+    });
+
+
+    $(".nav_forside").click(function () {
+        $("#cv").show();
+        $("#portfoliomappe").show();
+        $("html, body").animate({
+            scrollTop: 10
         }, 900);
 
     });
 
 
 
-    $(".nav_forside").click(function () {
-        $("#cv").slideUp("slow");
-        $("#portfoliomappe").slideUp("slow");
-
+    $('.up').click(function () {
         $("html, body").animate({
-            scrollTop: 10
-        }, 900);
-
-
-
-
+            scrollTop: 0
+        }, 600);
+        return false;
     });
 
 });
