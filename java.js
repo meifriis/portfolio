@@ -4,7 +4,7 @@ $(document).ready(function () {
         $("#cv").slideDown("slow");
 
         $("html, body").animate({
-            scrollTop: 700
+            scrollTop: 750
         }, 900);
 
 
@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 
         $("html, body").animate({
-            scrollTop: 690
+            scrollTop: 730
         }, 900);
 
     });
