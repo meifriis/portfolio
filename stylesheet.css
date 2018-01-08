@@ -16,7 +16,6 @@ body {
 p {
     text-align: justify;
     font-family: 'Rokkitt', serif;
-    word-spacing: 4px;
     font-size: 1.2em;
     width: 90%;
     margin: auto;
@@ -74,11 +73,11 @@ a {
     text-align: inherit;
     color: #173a4d;
     font-family: 'Rokkitt', serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     word-spacing: 4px;
     width: 90%;
-    margin: auto;
     padding: 15px;
+
 }
 
 
@@ -112,7 +111,7 @@ a {
 
 
 .navbar1 a:hover {
-    color: #6c89b9;
+    color: #a9b8c4;
     cursor: pointer;
 
 }
@@ -178,8 +177,7 @@ header .navn {
 
 
 .dropdown-content1 a:hover {
-    background-color: #ffffff;
-    color: #5d6f7d;
+    background-color: #a9b8c4;
 }
 
 
@@ -197,6 +195,7 @@ header .navn {
     list-style-type: none;
     text-align: left;
 }
+
 
 /*-------- Media Queries ---------- */
 
@@ -230,6 +229,7 @@ header .navn {
         padding: 15px;
     }
 }
+
 
 
 
@@ -317,8 +317,7 @@ header .navn {
 
 
 .dropdown-content a:hover {
-    background-color: #ffffff;
-    color: #5d6f7d;
+    background-color: #a9b8c4;
 }
 
 
@@ -351,6 +350,57 @@ header .navn {
         height: 70vw;
     }
 }
+
+
+@media all and (max-width: 626px) {
+
+
+    #splash img {
+        padding-top: 40px;
+        height: 45vw;
+    }
+}
+
+@media all and (max-width: 355px) {
+
+
+    #splash img {
+        padding-top: 40px;
+        height: 125vw;
+    }
+}
+
+
+
+@media all and (max-width: 1024px) {
+
+    #splash img {
+        padding-top: 40px;
+        height: 67vw;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+
+    #splash img {
+        padding-top: 40px;
+        height: 122vw;
+    }
+}
+
+
+@media all and (min-width: 5120px) {
+
+    #splash img {
+        padding-top: 200px;
+    }
+    .navbar1 a {
+        font-size: 6em;
+
+    }
+}
+
 
 
 
@@ -425,6 +475,7 @@ footer p {
 
 
 @media all and (max-width: 1255px) {
+
     .mig img {
         width: 60%;
         margin-top: -100px;
@@ -453,6 +504,7 @@ footer p {
 }
 
 
+
 .portflex {
     display: flex;
     flex-wrap: wrap;
@@ -471,18 +523,14 @@ footer p {
 
 }
 
+.portbg h1 {
+    font-size: 30px;
+}
+
 .portflex img:hover {
     transform: scale(1.1);
 }
 
-
-@media all and (max-width: 1255px) {
-
-    #portfoliomappe h1 {
-        margin-top: 180px;
-    }
-
-}
 
 
 
@@ -612,11 +660,6 @@ footer p {
 }
 
 /********** REDESIGN*********/
-
-.flex_redesign {
-    display: flex;
-    flex-wrap: ;
-}
 
 .redesign {
     width: 100%;
@@ -843,6 +886,7 @@ a {
 }
 
 
+
 .flexrep {
     display: flex;
     flex-wrap: wrap;
@@ -901,7 +945,9 @@ a {
     #ekstra {
         margin-top: 70px;
     }
-
+    .up {
+        display: none;
+    }
 }
 
 
@@ -911,9 +957,7 @@ a {
         width: 100%;
         height: 58.2vw;
     }
-    .up {
-        display: none;
-    }
+
 }
 
 /****KNAP*****/
@@ -928,8 +972,8 @@ a {
 
     position: fixed;
     right: 10px;
-    bottom: 10px;
-    height: 50px;
+    bottom: 20px;
+    height: 90px;
     width: 50px;
 
 }
